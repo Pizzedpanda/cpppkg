@@ -28,6 +28,7 @@ if (NOT PICO_CPPPKG_PATH)
         FetchContent_Declare(
                 pico_cpppkg
                 GIT_REPOSITORY https://github.com/Pizzedpanda/cpppkg
+                GIT_TAG master
         )
         if (NOT pico_cpppkg)
             message("Downloading pico_cpppkg")
